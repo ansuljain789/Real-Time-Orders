@@ -10,7 +10,7 @@
    🔹⚡No Polling Needed: Event-driven design improves efficiency.
    🔹👨‍💻API + UI: REST API for CRUD operations, plus a frontend table that updates dynamically.
    🔹🧑‍🤝‍🧑Multi-Client Support: Updates are broadcasted to all connected clients.
-   🔹📊Scalable Design: Can be extended for chat apps, dashboards, etc.
+   🔹📊Scalable Design: Can be extended for chat apps, dashboards, IoT, etc.
 
 🛠 Tech Stack
    🔹Backend: Node.js, Express.js
@@ -174,8 +174,7 @@ REALTIME-ORDERS/
 +--------------------------+--------------+-------------+-----------+---------------------+
 
 ## 📸 Frontend Screenshot
-![Orders Table Screenshot](public/screenshots/frontend.png)
-
+  ![Orders Table Screenshot](public/screenshots/frontend.png)
 
 ## 📸 Backend Screenshot
   ![BAckend Logs]public/screenshots/image.png
