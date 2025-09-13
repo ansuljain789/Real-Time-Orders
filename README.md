@@ -174,17 +174,16 @@ REALTIME-ORDERS/
 +--------------------------+--------------+-------------+-----------+---------------------+
 
 ## 📸 Frontend Screenshot
-  ![Orders Table Screenshot]public/screenshots/frontend.png
+![Orders Table Screenshot](public/screenshots/frontend.png)
 
 ## 📸 Backend Screenshot
-  ![BAckend Logs]public/screenshots/image.png
+![Backend Logs](public/screenshots/image.png)
 
-##postman screenshot
-   public/screenshots/Post imagesrequest.png
-   public/screenshots/getrequestimage.png
-   public/screenshots/putrequestImage.png
-   public/screenshots/deleterequest.png
-  
+## 📸 Postman Screenshots
+![POST Request](public/screenshots/PostimagesRequest.png)
+![GET Request](public/screenshots/GetrequestImage.png)
+![PUT Request](public/screenshots/PutrequestImage.png)
+![DELETE Request](public/screenshots/Deleterequest.png)
 
   
 
