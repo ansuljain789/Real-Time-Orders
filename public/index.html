@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Real-Time Orders</title>
+  <script src="/socket.io/socket.io.js"></script>
+  <style>
+    table { border-collapse: collapse; width: 80%; margin: 20px auto; }
+    th, td { border: 1px solid #ddd; padding: 8px; text-align: center; }
+    th { background-color: #f2f2f2; }
+  </style>
+</head>
+<body>
+  <h2 style="text-align:center;">Real-Time Orders</h2>
+  <table id="ordersTable">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Customer</th>
+        <th>Product</th>
+        <th>Status</th>
+        <th>Updated At</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script>
+    const socket = io(); // Connect to server
+
+    const tableBody = document.querySelector("#ordersTable tbody");
+
+    function renderOrder(change) {
+      const { operationType, fullDocument, documentKey, updateDescription } = change;
+      const now = new Date().toLocaleString();
+
+      if (operationType === "insert" && fullDocument) {
+        const row = document.createElement("tr");
+        row.id = documentKey._id;
+        row.innerHTML = `
+          <td>${fullDocument._id}</td>
+          <td>${fullDocument.customer_name}</td>
+          <td>${fullDocument.product_name}</td>
+          <td>${fullDocument.status}</td>
+          <td>${now}</td> 
+        `;
+        tableBody.appendChild(row);
+      }
+
+      if (operationType === "update") {
+        const row = document.getElementById(documentKey._id);
+        if (row) {
+          const updatedFields = updateDescription.updatedFields;
+          if (updatedFields.customer_name) row.cells[1].innerText = updatedFields.customer_name;
+          if (updatedFields.product_name) row.cells[2].innerText = updatedFields.product_name;
+          if (updatedFields.status) row.cells[3].innerText = updatedFields.status;
+
+          row.cells[4].innerText = now;
+        }
+      }
+
+      if (operationType === "delete") {
+        const row = document.getElementById(documentKey._id);
+        if (row) row.remove();
+      }
+    }
+
+    socket.on("orderChange", (change) => {
+      console.log("Change detected:", change.operationType);
+      renderOrder(change);
+    });
+
+    fetch("/api/orders")
+      .then(res => res.json())
+      .then(data => {
+        data.forEach(order => {
+          renderOrder({ operationType: "insert", fullDocument: order, documentKey: { _id: order._id } });
+        });
+      });
+  </script>
+</body>
+</html>
