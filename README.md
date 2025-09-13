@@ -21,7 +21,7 @@
 ⚙️ Installation & Setup
   
   1. Clone Repository
-   ->git clone https://github.com/ansuljain789/Real-Time-Orders.git "\n"
+   ->git clone https://github.com/ansuljain789/Real-Time-Orders.git
    ->cd Real-Time-Orders
 
   2. Install Dependencies
