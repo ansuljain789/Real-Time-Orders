@@ -174,7 +174,9 @@ REALTIME-ORDERS/
 +--------------------------+--------------+-------------+-----------+---------------------+
 
 ## 📸 Frontend Screenshot
-![Alt Text](https://github.com/ansuljain789/Real-Time-Orders/main/public/screenshots/image.png)
+<img alt="frontend" src="https://drive.google.com/file/d/1UkybzKJrhy4gGCiURTx2F8n4Kv8o9TnY/view?usp=sharing">
+
+
 
 ## 📸 Backend Screenshot
   ![BAckend Logs]public/screenshots/image.png
