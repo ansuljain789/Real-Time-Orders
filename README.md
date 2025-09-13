@@ -1,5 +1,4 @@
 ```
-
 📦Real-Time Orders Tracking System
 
     A real-time system that updates all connected clients instantly whenever the database changes.
@@ -22,7 +21,7 @@
 ⚙️ Installation & Setup
   
   1. Clone Repository
-   ->git clone https://github.com/ansuljain789/Real-Time-Orders.git
+   ->git clone https://github.com/ansuljain789/Real-Time-Orders.git "\n"
    ->cd Real-Time-Orders
 
   2. Install Dependencies
@@ -39,8 +38,7 @@
     -> npm run dev
 
 Now Server will run at 👉 http://localhost:3000
-
-if you want to show it in fronntedn about all updates the you can show in frontend
+if you want to show it in frontend about all updates the you can show in frontend
 
   5. Access Frontend
     ->Open http://localhost:3000 in your browser.
@@ -172,21 +170,29 @@ REALTIME-ORDERS/
 | 68c5527969339711a11ba043 | John Doe     | Smartphone  | pending   | 2025-09-13 11:06:56 |
 | 68c5527969339711a11ba099 | Alice        | Laptop      | shipped   | 2025-09-13 11:10:32 |
 +--------------------------+--------------+-------------+-----------+---------------------+
-
-## 📸 Frontend Screenshot
-![Orders Table Screenshot](public/screenshots/frontend.png)
+```
 
 ## 📸 Backend Screenshot
 ![Backend Logs](public/screenshots/image.png)
 
+## 📸 Frontend Screenshots
+
+<p float="left">
+  <img src="public/screenshots/frontend.png" />
+</p>
+
+
 ## 📸 Postman Screenshots
-![POST Request](public/screenshots/PostimagesRequest.png)
-![GET Request](public/screenshots/GetrequestImage.png)
-![PUT Request](public/screenshots/PutrequestImage.png)
-![DELETE Request](public/screenshots/Deleterequest.png)
 
-  
+<p float="left">
+  <img src="https://github.com/ansuljain789/Real-Time-Orders/blob/004b9690a475a569611b5677432bcf7ba67876d6/public/screenshots/Postimagesrequest.png" height="400" width="400" style="margin-right:60px;" />
+  <img src="https://github.com/ansuljain789/Real-Time-Orders/blob/004b9690a475a569611b5677432bcf7ba67876d6/public/screenshots/getrequestimage.png"height="400" width="400" />
+</p>
 
+<p float="left">
+  <img src="https://github.com/ansuljain789/Real-Time-Orders/blob/004b9690a475a569611b5677432bcf7ba67876d6/public/screenshots/putrequestImage.png"  height="400" width="400"  style="margin-right:80px;"/>
+  <img src="https://github.com/ansuljain789/Real-Time-Orders/blob/004b9690a475a569611b5677432bcf7ba67876d6/public/screenshots/deleterequest.png" height="400" width="400" />
+</p>
 
  
 
