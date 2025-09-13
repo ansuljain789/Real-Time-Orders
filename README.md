@@ -15,7 +15,7 @@
    🔹Backend: Node.js, Express.js
    🔹Database: MongoDB (with Change Streams)
    🔹Realtime Communication: Socket.IO
-   🔹Frontend: HTML, CSS, Vanilla JS
+   🔹Frontend: HTML, CSS
    🔹Tools: Postman (for testing APIs)
 
 ⚙️ Installation & Setup
