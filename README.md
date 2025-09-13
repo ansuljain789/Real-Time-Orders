@@ -174,8 +174,7 @@ REALTIME-ORDERS/
 +--------------------------+--------------+-------------+-----------+---------------------+
 
 ## 📸 Frontend Screenshot
-<img alt="frontend" src="https://drive.google.com/file/d/1UkybzKJrhy4gGCiURTx2F8n4Kv8o9TnY/view?usp=sharing">
-
+![Orders Table Screenshot](public/screenshots/frontend.png)
 
 
 ## 📸 Backend Screenshot
