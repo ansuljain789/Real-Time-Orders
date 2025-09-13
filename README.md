@@ -10,7 +10,7 @@
    🔹⚡No Polling Needed: Event-driven design improves efficiency.
    🔹👨‍💻API + UI: REST API for CRUD operations, plus a frontend table that updates dynamically.
    🔹🧑‍🤝‍🧑Multi-Client Support: Updates are broadcasted to all connected clients.
-   🔹📊Scalable Design: Can be extended for chat apps, dashboards, IoT, etc.
+   🔹📊Scalable Design: Can be extended for chat apps, dashboards, etc.
 
 🛠 Tech Stack
    🔹Backend: Node.js, Express.js
@@ -174,7 +174,7 @@ REALTIME-ORDERS/
 +--------------------------+--------------+-------------+-----------+---------------------+
 
 ## 📸 Frontend Screenshot
-![Image_Alt](https://github.com/ansuljain789/Real-Time-Orders/blob/b1fde7d4adcc8965d25d84a971770695cb30fa34/frontend.png)
+![Alt Text](https://github.com/ansuljain789/Real-Time-Orders/main/public/screenshots/image.png)
 
 ## 📸 Backend Screenshot
   ![BAckend Logs]public/screenshots/image.png
