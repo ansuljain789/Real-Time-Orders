@@ -174,7 +174,7 @@ REALTIME-ORDERS/
 +--------------------------+--------------+-------------+-----------+---------------------+
 
 ## 📸 Frontend Screenshot
-  ![Orders Table Screenshot](https://github.com/ansuljain789/Real-Time-Orders/blob/1ab2cd59724b8f2cbaee87946f0ac1d9fe9bbf6b/public/screenshots/frontend.png)
+![Image_Alt](https://github.com/ansuljain789/Real-Time-Orders/blob/072da29ae0cf7cdf66a739229131c05b27c024c2/public/screenshots/frontend.png)
 
 ## 📸 Backend Screenshot
   ![BAckend Logs]public/screenshots/image.png
